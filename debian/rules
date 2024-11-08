@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_install:
+	dh_auto_install
+	find debian/golang-github-pkg-profile-dev -type f -name '*.pprof' -delete
