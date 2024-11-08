@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-pkg-profile (1.2.1-2) unstable; urgency=medium
 
-  * Initial release
+  * make the build reproducible. Thanks, Chris Lamb. (Closes: #862825)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Félix Sipma <felix+debian@gueux.org>  Wed, 17 May 2017 15:39:11 +0200
+
+golang-github-pkg-profile (1.2.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #853942)
+
+ -- Félix Sipma <felix+debian@gueux.org>  Wed, 10 May 2017 13:30:42 +0200
